@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    android:orientation="vertical">
+	
+	
+	<com.mcxtzhang.swipemenulib.SwipeMenuLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:paddingBottom="1dp"
+		android:focusable="true">
+		
+		<LinearLayout
+			android:id="@+id/ll_check_box"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:gravity="center"
+			android:orientation="horizontal"
+			android:background="#EEEEEE">
+
+			<ImageView
+				android:id="@+id/imageView3"
+				android:layout_width="12dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				app:srcCompat="@android:drawable/ic_input_add" />
+
+			<EditText
+				android:id="@+id/NameInputBox"
+				android:layout_width="95dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:hint="@string/name"
+				android:textSize="20sp"/>
+
+			<TextView
+				android:id="@+id/textView2"
+				android:layout_width="9dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="  $"
+				android:textColor="#569F02"
+				android:textSize="24sp"
+				tools:text="  $" />
+
+			<EditText
+				android:id="@+id/MoneyInputBox"
+				android:layout_width="105dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:hint="0"
+				android:inputType="number"
+				android:textSize="20sp"/>
+				
+		</LinearLayout>
+		
+		<Button
+            android:id="@+id/btn_delete"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:background="#D62727"
+            android:text="delete"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#FFFFFF"
+            android:textStyle="bold" />
+		
+	</com.mcxtzhang.swipemenulib.SwipeMenuLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:background="#EEEEEE">
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#AAAAAA"/>
+</LinearLayout>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">super accounting master</string>
+    <string name="spn_prompt_subcategory">SubType</string>
+    <string name="regist">Register</string>
+    <string name="resPwd">Reset Password</string>
+    <string name="spn_prompt_account">Account</string>
+    <string name="spn_prompt_project">Project</string>
+    <string name="forgetPwd">Forget Password</string>
+    <string name="add_bill">Income</string>
+    <string name="add_bill1">Outcome</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="input_message">Please input the amount</string>
+    <string name="detail_tab">Detail</string>
+    <string name="startRegist">Start register</string>
+    <string name="login">Log in</string>
+    <string name="edit_out">Edit outcome</string>
+    <string name="edit_in">Edit income</string>
+    <string name="save_message">Successfully saved</string>
+    <string name="exist">This user already existed</string>
+    <string name="format"> The format of the mobile phone number is incorrect</string>
+    <string name="pass_null">Password can not be blank</string>
+    <string name="save">Save</string>
+    <string name="edit_message">Successfully edited</string>
+    <string name="regist_message">Successfully registed</string>
+    <string name="add_split">AA</string>
+    <string name="spn_prompt_corporation">Object</string>
+    <string name="spn_prompt_category">Category</string>
+    <string name="category_report_tab">Report</string>
+    <string name="Login_reg">Log in/Register</string>
+    <string name="View_detail">View Detail</string>
+    <string name="Input_value">Input value</string>
+    <string name="Date">Date</string>
+    <string name="Remark">Remark</string>
+    <string name="password">Password</string>
+    <string name="number">Phone Number</string>
+    <string name="input_number">Please input your phone number</string>
+    <string name="new_password">Please input your new password</string>
+    <string name="new_password_again">Please input your new password again</string>
+    <string-array name="bigCategoryList">
+        <item>Work</item>
+        <item>Social</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="bigCategoryList1">
+        <item>Shopping</item>
+        <item>Foods</item>
+
+        <item>Transport</item>
+        <item>Resident</item>
+        <item>Entertainment</item>
+        <item>Health</item>
+        <item>Education</item>
+        <item>Social</item>
+        <item>Others</item>
+
+    </string-array>
+
+    <string-array name="defaultSubCategory_info">
+        <item>Salary</item>
+        <item>Part-time</item>
+        <item>Bonus</item>
+        <item>Overtime</item>
+
+    </string-array>
+
+    <string-array name="defaultSubCategory_info1">
+        <item>Clothing👔</item>
+        <item>Makeup💄</item>
+        <item>Daily🛒</item>
+        <item>Equipment📺</item>
+
+    </string-array>
+
+
+    <string-array name="accountList1">
+        <item>Credit Card</item>
+        <item>Octopus</item>
+        <item>WeChat</item>
+        <item>AliPay</item>
+        <item>Cash</item>
+        <item>Others</item>
+
+    </string-array>
+    <string-array name="shoplist">
+        <item>Bank</item>
+        <item>Company</item>
+        <item>Relatives</item>
+        <item>Friends</item>
+        <item>Others</item>
+
+    </string-array>
+    <string-array name="shoplist1">
+        <item>Bank</item>
+        <item>Mall</item>
+        <item>School</item>
+        <item>Relatives</item>
+        <item>Friends</item>
+        <item>Others</item>
+
+    </string-array>
+    <string-array name="notelist">
+        <item>Accident</item>
+
+        <item>Others</item>
+
+    </string-array>
+
+    <string-array name="diyihang">
+        <item>Salary</item>
+        <item>Part-time</item>
+        <item>Bonus</item>
+        <item>Overtime</item>
+
+
+
+    </string-array>
+    <string-array name="dierhang">
+        <item>Red packet💟</item>
+        <item>Gift🎁</item>
+
+
+    </string-array>
+    <string-array name="disanhang1">
+        <item>Borrow</item>
+        <item>Investment</item>
+        <item>Accident</item>
+        <item>Lottery</item>
+        <item>Scholarship</item>
+        <item>Interest</item>
+
+
+    </string-array>
+
+    <array name="diyihang1">
+        <item>Clothing👔</item>
+        <item>Makeup💄</item>
+        <item>Daily🛒</item>
+        <item>Equipment📺</item>
+
+    </array>
+
+    <array name="dierhang1">
+        <item>Meals🍚</item>
+        <item>Snacks🍬</item>
+        <item>Fruits🍎</item>
+        <item>Drinks☕</item>
+    </array>
+
+    <array name="disanhang">
+        <item>Buses🚌</item>
+        <item>MTR🚇</item>
+        <item>Taxi🚕</item>
+        <item>Train🚆</item>
+        <item>Airplane✈</item>
+    </array>
+    <array name="disihang">
+        <item>Rent🏠</item>
+        <item>Management🏰</item>
+        <item>Phone☎</item>
+        <item>Internet💻</item>
+        <item>Water💧</item>
+        <item>Electricity⚡</item>
+        <item>Gas🔥</item>
+        <item>Repair🛠</item>
+    </array>
+
+    <array name="diwuhang">
+        <item>Movie🎬</item>
+        <item>KTV🎤</item>
+        <item>Game🎮</item>
+        <item>Travel⛱</item>
+        <item>Sports🏀</item>
+    </array>
+
+    <array name="diliuhang">
+        <item>Pharmacy💊</item>
+        <item>Hospital💉</item>
+
+    </array>
+
+    <array name="diqihang">
+        <item>Schooling🏫</item>
+        <item>Books📕</item>
+        <item>Test💯</item>
+        <item>Tutorial📚</item>
+    </array>
+
+    <array name="dibayang">
+        <item>Treat👨‍👨‍👧‍👧</item>
+        <item>Present🎁</item>
+        <item>Red packet💟</item>
+    </array>
+
+    <array name="dijiuhang">
+        <item>Insurance💷</item>
+        <item>Investment💰</item>
+        <item>Pet🐶</item>
+        <item>Delivery📦</item>
+        <item>Lending💲</item>
+    </array>
+
+    <string name="my_debt">Last Split Result</string>
+    <string name="rmb">Total Cost</string>
+    <string name="balanced">Balanced</string>
+    <string name="iodetail">Income/Outcome detail</string>
+    <string name="info">The user is</string>
+    <string name="hit">Warning</string>
+    <string name="message">You have not logged in, please click the OK button to log in！</string>
+    <string name="yes">OK</string>
+
+    <string name="select">Please select</string>
+    <string name="de_select">Are you sure to delete all？</string>
+    <string name="delete">delete</string>
+    <string name="clearall">ClearAll</string>
+    <string-array name="de_type_array">
+        <item>Yes</item>
+        <item>No</item>
+
+    </string-array>
+    <string name="name">Name</string>
+    <string name="delete2">Delete</string>
+    <string name="NewPlan">New Plan</string>
+    <string name="WhoPays">Who Pays ?</string>
+    <string name="ForWho">For Who ?</string>
+    <string name="Next">Next ></string>
+    <string name="SaveFinish">SAVE AND FINISH</string>
+    <string name="Name">Name</string>
+    <string name="Result">Results</string>
+    <string name="Name1">Name1</string>
+    <string name="Name2">Name2</string>
+    <string name="deletelast">Delete the last one</string>
+    <string name="toast1">Item  </string>
+    <string name="toast2">\ is incomplete.</string>
+    <string name="toast3">"Less than 2 people. "</string>
+</resources>

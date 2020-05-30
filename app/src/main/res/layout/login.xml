@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#237E7E7E"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/textstyle"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="#070000"
+        android:textSize="24sp" />
+    <!-- input account -->
+    <EditText
+        android:id="@+id/editPhone"
+        style="@style/textstyle"
+        android:layout_width="fill_parent"
+        android:background="@drawable/rounded_edittext_states"
+        android:hint="@string/number"
+        android:inputType="number"
+        android:lines="1"
+        android:maxLength="11"
+        android:singleLine="true" />
+    <!-- input pwd -->
+    <EditText
+        android:id="@+id/editPwd"
+        style="@style/textstyle"
+        android:layout_width="fill_parent"
+        android:background="@drawable/rounded_edittext_states"
+        android:hint="@string/password"
+        android:lines="1"
+        android:maxLength="16"
+        android:password="true"
+        android:singleLine="true" />
+    <!-- the login button -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:onClick="OnMyLoginClick"
+        android:text="@string/login"
+        android:textSize="23dip"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <!-- forget password button -->
+        <TextView
+            android:id="@+id/txtForgetPwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="OnMyResPwdClick"
+            android:text="@string/forgetPwd"
+            android:textColor="#030000"
+            android:textSize="15sp" />
+        <!-- start register button -->
+        <TextView
+            android:id="@+id/txtStartRegist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="OnMyRegistClick"
+            android:text="@string/startRegist"
+            android:textColor="#050000"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

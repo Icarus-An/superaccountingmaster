@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="?attr/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_income"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="@string/add_bill"
+            android:textStyle="bold"
+            android:textColor="@color/textWhite"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_outlay"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="@string/add_bill1"
+            android:textStyle="bold"
+            android:textColor="@color/textWhite"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_income_money"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:text="0.00"
+            android:textColor="@color/textWhite"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/tv_outlay_money"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:text="0.00"
+            android:textColor="@color/textWhite"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <!--detail Tab-->
+        <TextView
+            android:id="@+id/item_detail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/detail_tab"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <!--category report Tab-->
+        <TextView
+            android:id="@+id/item_category_report"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/category_report_tab"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/mainViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="388dp"
+        android:layout_weight="1" />
+
+    <!--Add an income and expense record-->
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/textstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:text="@string/deletelast"
+        android:onClick="deleteRecord"/>
+
+    <Button
+        android:id="@+id/btnAddRecord"
+        style="@style/textstyle"
+        android:layout_width="fill_parent"
+        android:background="@color/colorPrimary"
+        android:onClick="OnAddRecordClick"
+        android:text="+ "
+        android:textColor="@android:color/white"
+        android:textSize="40dp" />
+
+</LinearLayout>
+

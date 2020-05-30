@@ -1,0 +1,260 @@
+<resources>
+    <string name="app_name">super accounting master</string>
+    <string name="add_split">AA</string>
+    <string name="add_bill">收入</string>
+    <string name="add_bill1">支出</string>
+    <string name="category_report_tab">类别报表</string>
+    <string name="login">登录</string>
+    <string name="forgetPwd">忘记密码</string>
+    <string name="startRegist">开始注册</string>
+    <string name="regist">注册</string>
+    <string name="resPwd">重置密码</string>
+    <string name="confirm">确认</string>
+
+    <string name="spn_prompt_category">类别</string>
+    <string name="spn_prompt_subcategory">子类别</string>
+    <string name="spn_prompt_account">账户</string>
+    <string name="spn_prompt_corporation">对象</string>
+    <string name="spn_prompt_project">项目</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+<string name="Login_reg">登录/注册</string>
+    <string name="View_detail">查看详情</string>
+    <string name="Input_value">输入金额</string>
+    <string name="Date">日期</string>
+    <string name="Remark">备注</string>
+
+    <string name="input_message">请填写金额</string>
+    <string name="edit_message">编辑成功</string>
+    <string name="save_message">保存成功</string>
+    <string name="regist_message">注册成功</string>
+    <string name="edit_in">编辑收入</string>
+    <string name="edit_out">编辑支出</string>
+    <string name="exist">该用户已存在</string>
+    <string name="format">手机号格式不正确！</string>
+    <string name="pass_null">密码不能为空！</string>
+
+    <string name="detail_tab">明细</string>
+
+    <string-array name="type_array">
+        <item>Income</item>
+        <item>Outcome</item>
+
+    </string-array>
+
+    <string-array name="de_type_array">
+        <item>是</item>
+        <item>否</item>
+
+    </string-array>
+
+    <string-array name="currency_array">
+        <item>CNY</item>
+        <item>HKD</item>
+
+    </string-array>
+
+    <string-array name="bigCategoryList">
+        <item>工作</item>
+        <item>人情</item>
+        <item>其他</item>
+
+    </string-array>
+
+    <string-array name="bigCategoryList1">
+        <item>购物</item>
+        <item>餐饮</item>
+
+        <item>交通</item>
+        <item>居住</item>
+        <item>娱乐</item>
+        <item>医疗</item>
+        <item>教育</item>
+        <item>人情</item>
+        <item>其他</item>
+
+    </string-array>
+
+    <string-array name="defaultSubCategory_info">
+        <item>工资</item>
+        <item>兼职</item>
+        <item>奖金</item>
+        <item>加班</item>
+    </string-array>
+
+    <string-array name="defaultSubCategory_info1">
+        <item>服饰👔</item>
+        <item>美妆💄</item>
+        <item>日用品🛒</item>
+        <item>电器📺</item>
+
+    </string-array>
+
+
+
+    <string-array name="accountList1">
+        <item>银行卡</item>
+        <item>八达通</item>
+        <item>微信</item>
+        <item>支付宝</item>
+        <item>现金</item>
+        <item>其他</item>
+
+    </string-array>
+
+    <string-array name="shoplist">
+        <item>银行</item>
+        <item>公司</item>
+        <item>亲戚</item>
+        <item>朋友</item>
+        <item>其他</item>
+
+    </string-array>
+
+    <string-array name="shoplist1">
+        <item>银行</item>
+        <item>商场</item>
+        <item>亲戚</item>
+        <item>朋友</item>
+        <item>学校</item>
+        <item>其他</item>
+
+    </string-array>
+    <string-array name="notelist">
+        <item>意外</item>
+
+        <item>其他</item>
+
+    </string-array>
+
+    <string name="password">密码</string>
+    <string name="number">手机号</string>
+    <string name="input_number">请输入注册的手机号</string>
+    <string name="new_password">请输入新密码</string>
+    <string name="new_password_again">请再次输入新密码</string>
+    <string name="my_debt">上一次的AA结果</string>
+    <string name="rmb">总金额</string>
+    <string name="balanced">结余</string>
+    <string name="iodetail">收入/支出明细</string>
+    <string name="info">此次登录的用户是</string>
+    <string name="hit">提示</string>
+    <string name="message">您还未登录，请点击确定按钮进行登录！</string>
+    <string name="yes">确定</string>
+
+    <string name="select">请选择添加类别</string>
+    <string name="de_select">确定要完全删除？</string>
+    <string-array name="diyihang">
+        <item>工资</item>
+        <item>兼职</item>
+        <item>奖金</item>
+        <item>加班</item>
+
+
+
+    </string-array>
+    <string-array name="dierhang">
+        <item>红包</item>
+        <item>礼金</item>
+
+
+    </string-array>
+    <string-array name="disanhang1">
+        <item>借入</item>
+        <item>投资</item>
+        <item>意外</item>
+        <item>中奖</item>
+        <item>奖学金</item>
+        <item>利息</item>
+
+
+    </string-array>
+
+
+    <array name="diyihang1">
+        <item>服饰👔</item>
+        <item>美妆💄</item>
+        <item>日用品🛒</item>
+        <item>电器📺</item>
+
+    </array>
+
+    <array name="dierhang1">
+        <item>早午晚餐🍚</item>
+        <item>零食🍬</item>
+        <item>水果🍎</item>
+        <item>烟酒茶☕</item>
+    </array>
+
+    <array name="disanhang">
+        <item>公交🚌</item>
+        <item>地铁🚇</item>
+        <item>的士🚕</item>
+        <item>火车🚆</item>
+        <item>飞机✈</item>
+    </array>
+
+    <array name="disihang">
+        <item>房租🏠</item>
+        <item>物业费🏰</item>
+        <item>话费☎</item>
+        <item>网费💻</item>
+        <item>水费💧</item>
+        <item>电费⚡</item>
+        <item>煤气费🔥</item>
+        <item>维修费🛠</item>
+    </array>
+
+    <array name="diwuhang">
+        <item>电影🎬</item>
+        <item>KTV🎤</item>
+        <item>游戏🎮</item>
+        <item>旅游⛱</item>
+        <item>运动🏀</item>
+    </array>
+
+    <array name="diliuhang">
+        <item>药店💊</item>
+        <item>医院💉</item>
+
+    </array>
+
+    <array name="diqihang">
+        <item>学费🏫</item>
+        <item>书籍费📕</item>
+        <item>考试费💯</item>
+        <item>培训费📚</item>
+    </array>
+
+    <array name="dibayang">
+        <item>请客👨‍👨‍👧‍👧</item>
+        <item>礼物🎁</item>
+        <item>红包💟</item>
+    </array>
+
+    <array name="dijiuhang">
+        <item>保险💷</item>
+        <item>投资💰</item>
+        <item>宠物🐶</item>
+        <item>快递📦</item>
+        <item>借出💲</item>
+    </array>
+
+    <string name="delete">删除</string>
+<string name="clearall">清空</string>
+    <string name="name">名字</string>
+    <string name="delete2">删除</string>
+    <string name="NewPlan">新AA</string>
+    <string name="WhoPays">谁付钱</string>
+    <string name="ForWho">为谁付</string>
+    <string name="Next">下一步 ></string>
+    <string name="Name">名字</string>
+    <string name="Result">结果</string>
+    <string name="SaveFinish">完成并保存</string>
+    <string name="Name1">名字1</string>
+    <string name="Name2">名字2</string>
+    <string name="deletelast">删除最近一笔账单</string>
+    <string name="toast1">第\ </string>
+    <string name="toast2">\ 个项目的名字没有完整填写。</string>
+    <string name="toast3">人数小于2人</string>
+
+</resources>

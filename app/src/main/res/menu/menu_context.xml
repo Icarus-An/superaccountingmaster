@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/AA"
+        android:title="@string/add_split" />
+    <item
+        android:id="@+id/menuItemRU"
+        android:title="@string/add_bill" />
+    <item
+        android:id="@+id/menuItemCHU"
+        android:title="@string/add_bill1" />
+</menu>

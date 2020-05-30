@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keypad_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:paddingLeft="6.0dip"
+    android:paddingTop="10.0dip"
+    android:paddingRight="6.0dip">
+
+    <Button
+        android:id="@+id/display"
+        android:layout_width="397dp"
+        android:layout_height="247dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textSize="50dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="24.0dip"
+        android:layout_marginBottom="20.0dip"
+        android:layout_weight="1.0"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/widget_keypad_row_ly_hdip"
+            android:layout_height="60dp">
+
+            <Button
+                android:id="@+id/one"
+                style="@android:style/Widget.Button"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:text="1"
+                android:textSize="30dip" />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:text="2"
+                android:textSize="30dip" />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:text="3"
+                android:textSize="30dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/widget_keypad_row_ly_hdip"
+            android:layout_height="60dp">
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:text="4"
+                android:textSize="30dip" />
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:text="5"
+                android:textSize="30dip" />
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:text="6"
+                android:textSize="30dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/widget_keypad_row_ly_hdip"
+            android:layout_height="60dp">
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:text="7"
+                android:textSize="30dip" />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:text="8"
+                android:textSize="30dip" />
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:text="9"
+                android:textSize="30dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/widget_keypad_row_ly_hdip"
+            android:layout_height="60dp">
+
+            <Button
+                android:id="@+id/dot"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:text="."
+                android:textSize="30dip" />
+
+            <Button
+                android:id="@+id/zero"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:text="0"
+                android:textSize="30dip" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:text="DEL"
+                android:textColor="#F44336"
+                android:textSize="30dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/widget_keypad_row_ly_hdip"
+            android:layout_height="60dp">
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:text="BACK"
+                android:textColor="#000000"
+                android:textSize="30dip" />
+
+            <Button
+                android:id="@+id/clean"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:text="AC"
+                android:textColor="#030000"
+                android:textSize="30dip" />
+
+            <Button
+                android:id="@+id/done"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:text="Done"
+                android:textColor="#4AC376"
+                android:textSize="30dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
